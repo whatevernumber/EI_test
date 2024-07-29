@@ -29,8 +29,9 @@ onMounted(() => {
         options: {
             indexAxis: 'y',
             scales: {
-                y: {
-                    beginAtZero: true
+                x: {
+                    beginAtZero: true,
+                    max: 250,
                 }
             },
         }
